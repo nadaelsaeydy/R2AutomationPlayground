@@ -21,7 +21,7 @@ public class RegistrationPage {
     By zipCode = By.xpath("//input[@data-qa=\"zipcode\"]");
     By mobileNumber = By.xpath("//input[@data-qa=\"mobile_number\"]");
     By createAccountButton = By.xpath("//button[@data-qa=\"create-account\"]");
-    String name ="nada";
+
 
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
